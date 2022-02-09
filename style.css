@@ -78,6 +78,10 @@
     }
 }
 
+body {
+    background-color: purple;
+}
+
 .hhe {
     width: 100%;
     display: grid;
@@ -85,6 +89,7 @@
 }
 
 img {
+    margin-left: 4px;
     height: 400px;
     width: 100%;
 }
@@ -92,6 +97,7 @@ img {
 .img2 {
     height: 400px;
     width: 100%;
+    margin: 5px;
 }
 
 .txt {
@@ -105,4 +111,12 @@ img {
 .bxt {
     width: 100%;
     text-align: center;
+}
+
+.cake {
+    margin-left: 20%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
